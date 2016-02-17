@@ -114,6 +114,7 @@
 					$submit = document.querySelectorAll('#signup-form input[type="submit"]')[0],
 					$message;
 
+
 			// Bail if addEventListener isn't supported.
 				if (!('addEventListener' in $form))
 					return;
@@ -146,6 +147,9 @@
 					event.stopPropagation();
 					event.preventDefault();
 
+
+					var email = document.getElementById("email").value;
+					alert(email)
 					// Hide message.
 						$message._hide();
 
