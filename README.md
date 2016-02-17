@@ -1,1 +1,0 @@
-# Simple blog page created using Github pages and Jekyll.
